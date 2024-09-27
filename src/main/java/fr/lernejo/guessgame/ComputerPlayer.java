@@ -20,5 +20,10 @@ public class ComputerPlayer implements Player {
         } else {
             upperBound = (lowerBound + upperBound) / 2;
         }
+        if (lowerBound == upperBound) {
+            System.out.println("Bravo !" + lowerBound);
+            System.out.println("End");
+        }
     }
+
 }
